@@ -1,0 +1,9 @@
+ instalação de modulo= npm i -- save nome_modulo [TERMINAL]
+
+ importação de modulo= require (EXPRESS ou MYSQL2 ou CORS ou BODY-PARSE) [Código fonte]
+
+ createPool = cria o espaço que possibilita fazer a comunicação; 
+ mysql2 = permite a comunicação com o banco de dados;
+ getConnection = faz a conexão com o banco, mas ainda pode existir erros na conaxão;
+ release = libera o controle para outro, me desconecta depois que ja está terminado;
+  
